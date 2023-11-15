@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
         body {
 	margin: 0;  
 	padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .home {
-    background-image: url("WhatsApp\ Image\ 2023-11-15\ at\ 08.36.19.jpeg");
+    background-image: url(https://greenflowers.es/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-15-at-08.36.19.jpeg);
 	background-size: cover;
 	height: 100vh;
 }
@@ -29,7 +33,7 @@ nav {
 }
 nav a {
 	text-decoration: none;
-	color: #ffffff;
+	color: black;
 	font-size: 18px;
 	text-transform: uppercase;
 	margin: 0 25px;
@@ -53,12 +57,12 @@ nav a {
 	line-height: 1;
 }
 .banner-area h3 span{
-	color: #ffffff;
+	color: black;
 }
 .banner-area h2 {
 	margin: 0;
 	padding: 0;
-	color: #ffffff;
+	color: black;
 	font-size: 2em;
 	line-height: 0;
 }
@@ -75,6 +79,27 @@ nav a {
 	font-size: 20px;
 	text-transform: uppercase;
 }
+.layout {
+  width: 90%;
+  display: flex;
+  gap: 16px;
+}
+.grow1{
+    height: 300px;
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+.data{
+    flex-direction: column;
+    margin-top: 200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grow1 { flex-grow: 1; }
 @media (max-width:800px) {
 	nav a {
 		font-size: 16px;
@@ -92,10 +117,14 @@ nav a {
 	}
 }
 @media (max-width: 767px){
+    .layout{
+        flex-direction: column;
+        margin: 50px;
+    }
 	.banner-area h3 {
 		font-size: 35px;
 	}
-	.banner-area h2 {
+	.banner-area h2 { 
 		font-size: 1em;
 	}
 	.banner-area a {
@@ -113,11 +142,20 @@ nav a {
 		background-position: 60%;
 	}
 }  
-
+.learnMore{
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    width: 80%;
+}
     </style>
 </head>
 <body>
-    <!doctype html>
+    <!doctyh2e html>
 <html lang="en">
      <!-- divinectorweb.com -->
 <head>
@@ -128,21 +166,61 @@ nav a {
 <body>
    <div class="home">
        <nav>
-        <a href="#">home</a>
-        <a href="#">about</a>
+        <a href=".homer">inicio</a>
+        <a href="https://github.com/proyectoymontajes/LAE-3D-Printer"> Git Hub</a>
         <span class="logo">LAE</span>
-        <a href="#">blog</a>
-        <a href="#">contact</a>
+        <a href="https://marlinfw.org/">Firmware</a>
+        <a href="#procesos">Proceso</a>
       </nav>
       
         <div class="banner-area">
         <h3>LAE <br> <span>& 3D Printer</span></h3>
             <h2>E.E.S.T.N°5 "2 De Abril Lomas De Zamora" <span class="typed2"></span></h2>
-            <a href="#">Learn More</a>
+            <a href="learnMore">Learn More</a>
         </div>
    </div>
+   <div class="learnMore">
+    <h2>
+        Descripción del Proceso de Armado de Impresora 3D <br>
+
+En nuestro taller especializado, nos enfrentamos al desafío de revitalizar una impresora 3D que yacía en completo abandono. El equipo se encontraba en un estado de destrucción, con componentes rotos, cables desgarrados y una apariencia general desalentadora.
+<br>
+<br>
+1. Evaluación Exhaustiva:
+Primero, llevamos a cabo una evaluación minuciosa para identificar los daños y determinar la viabilidad de la restauración. Catalogamos cada componente dañado, desde la estructura principal hasta los motores y la electrónica.
+<br>
+<br>
+2. Desmontaje Riguroso:
+Desmontamos la impresora 3D por completo, desvinculando cada parte con cuidado. Esta fase es crucial para comprender la disposición interna y garantizar que ninguna pieza funcional se pierda durante el proceso.
+<br>
+<br>
+3. Reparación y Reemplazo:
+Las piezas irreparables fueron reemplazadas con componentes de alta calidad, y las partes dañadas pero recuperables fueron meticulosamente reparadas. Esto incluyó la reconexión de cables, soldaduras, y la reparación de estructuras físicas.
+<br>
+<br>
+4. Mejoras Tecnológicas:
+Aprovechamos la oportunidad para integrar mejoras tecnológicas en la impresora 3D. Esto podría incluir la actualización de motores, la instalación de placas base más avanzadas o la incorporación de sensores para una mayor precisión.
+<br>
+5. Ensamblaje Preciso:
+Con todas las reparaciones realizadas y las mejoras implementadas, procedimos al ensamblaje de la impresora 3D. Este paso implica una precisión milimétrica para garantizar el correcto funcionamiento de cada componente.
+<br>
+<br>
+6. Calibración y Pruebas:
+La calibración meticulosa es esencial para garantizar que la impresora funcione con la máxima precisión. Realizamos pruebas exhaustivas para verificar la alineación, la temperatura, y la coherencia en la impresión.
+<br>
+<br>
+7. Resultado Final:
+La impresora 3D, una vez abandonada y destruida, ha sido revivida con un rendimiento mejorado y capacidades avanzadas. Ahora está lista para afrontar nuevos proyectos y desafíos de impresión en 3D con eficiencia y fiabilidad.
+
+Esta descripción puede ajustarse según los detalles específicos del proyecto y las mejoras particulares que se hayan implementado en la impresora 3D.
 
 
+
+
+
+
+    </h2>
+   </div>
     <script src="typed.js"></script>
     <script>
         var typed = new Typed(".typed2", {
